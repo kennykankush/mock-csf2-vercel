@@ -1,3 +1,3 @@
 export const environment = {
-    apiUrl: 'http://www.hedadadada.com/',
+    apiUrl: 'mock-csf2-vercel-production.up.railway.app',
   }
