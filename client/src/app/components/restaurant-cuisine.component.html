@@ -1,0 +1,36 @@
+<!-- <div *ngIf="restaurants$ | async as restaurants">
+    <div *ngFor="let r of restaurants">
+
+    </div>
+</div> -->
+
+<!-- <div>
+    <table border=1>
+        <tr>
+            List of {{cuisine}} restaurants
+        </tr>
+        <tr *ngFor="let res of restaurants">
+            
+        <td>{{res.namd}}</td>
+    </tr>
+    </table>
+
+    <button type="button" routerLink="/">Back</button>
+
+</div> -->
+
+<div>
+    <table border=1>
+        <tr>
+            List of {{cuisine}} restaurants
+        </tr>
+        <tr *ngFor="let res of restaurantNames">
+            
+        <!-- <td routerLink="/restaurant/{{res}}">{{res}}</td> -->
+        <td (click)="clickStuff()">{{res}}</td>
+    </tr>
+    </table>
+
+    <button type="button" routerLink="/">Back</button>
+
+</div>

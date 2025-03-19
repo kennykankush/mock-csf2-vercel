@@ -1,0 +1,26 @@
+<!-- <p *ngFor="let cuisine of cuisines"> 
+    {{cuisine}}
+</p> -->
+
+<!-- https://www.w3schools.com/html/html_tables.asp -->
+<h2>List Of Cuisines</h2>
+<table border=1 *ngIf="cuisines$ | async as cuisines">
+    <!-- <tr>
+
+        <th> Cuisine </th>
+
+    </tr> -->
+    <tr *ngFor="let cuisine of cuisines"> 
+
+        <td routerLink="/{{cuisine}}/restaurant"> {{cuisine}}</td>
+
+    </tr>
+</table>
+
+
+
+
+
+
+
+
