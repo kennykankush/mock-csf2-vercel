@@ -24,3 +24,16 @@ C:\??\Desktop\NUSISS\CSF\Workshops\mock-cs2-vercel\client>vercel --prod
 Vercel CLI 41.1.4
 🔍  Inspect: ?? [831ms]
 ✅  Production: ?? [831ms]
+
+AFTER ENV.TS UPDATE AFTER GETTING BACKEND URL DOMAIN
+
+C:\??\Desktop\NUSISS\CSF\Workshops\mock-cs2-vercel\client>vercel
+Vercel CLI 41.1.4
+🔍  Inspect: ?? [1s]
+✅  Preview: ?? [1s]
+📝  To deploy to production (cs2-beige.vercel.app), run `vercel --prod`
+
+C:\??\Desktop\NUSISS\CSF\Workshops\mock-cs2-vercel\client>vercel --prod
+Vercel CLI 41.1.4
+🔍  Inspect: ?? [1s]
+✅  Production: ?? [1s]
