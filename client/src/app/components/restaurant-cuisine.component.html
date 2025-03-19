@@ -27,7 +27,7 @@
         <tr *ngFor="let res of restaurantNames">
             
         <!-- <td routerLink="/restaurant/{{res}}">{{res}}</td> -->
-        <td (click)="clickStuff()">{{res}}</td>
+        <td (click)="getRestaurant(res)">{{res}}</td>
     </tr>
     </table>
 

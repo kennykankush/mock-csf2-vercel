@@ -59,8 +59,12 @@ export class RestaurantCuisineComponent implements OnInit{
 
     }
 
-    clickStuff(){
-        this.router.navigate([`/restaurant/${this.restaurantNames}`]);
+    // clickStuff(){
+    //     this.router.navigate([`/restaurant/${this.restaurantNames}`]);
+    // }
+
+    getRestaurant(restaurantName: string){
+        this.router.navigate([`/restaurant/${restaurantName}`])
     }
 
 }
